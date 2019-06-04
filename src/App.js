@@ -1,7 +1,10 @@
 import React from 'react';
-import './App.scss';
+import './scss/App.scss';
 import Header from "./components/Header";
-import Section from "./components/Section";
+import BannerSection from "./components/BannerSection";
+import TipsSection from "./components/TipsSection";
+import AboutUsSection from "./components/AboutUsSection";
+import HelpInfoSection from "./components/HelpInfoSection";
 import Footer from "./components/Footer";
 import * as Scroll from 'react-scroll';
 
@@ -10,7 +13,10 @@ function App() {
     return (
         <>
             <Header/>
-            <Section/>
+            <BannerSection/>
+            <TipsSection/>
+            <AboutUsSection/>
+            <HelpInfoSection/>
             <Footer/>
         </>
     );
