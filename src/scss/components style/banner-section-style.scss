@@ -1,4 +1,16 @@
 .banner-section {
-  background: purple;
-  height: 100vh;
+  background: gold;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .banner-blocks{
+    h1{
+      font-size: 5em;
+    }
+    display: inline-block;
+    text-align: center;
+    width: 33.333%;
+  }
 }

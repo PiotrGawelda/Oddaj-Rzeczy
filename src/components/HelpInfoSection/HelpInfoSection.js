@@ -5,7 +5,9 @@ class HelpInfoSection extends Component {
     render() {
         return(
             <section className="help-info-section">
-                <h1>HelpInfoSection</h1>
+                <div className="container">
+                    <h1>HelpInfoSection</h1>
+                </div>
             </section>
         )
     }

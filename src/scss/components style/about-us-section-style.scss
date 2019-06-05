@@ -1,4 +1,18 @@
+%display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .about-us-section {
-  background: gold;
+  background-color: #E9ECEF;
   height: 100vh;
+  .about-us-info{
+    @extend %display-flex;
+    width: 50%;
+  }
+  .about-us-image{
+    width: 50%;
+  }
 }

@@ -1,4 +1,25 @@
 .tips-section{
-  background: orange;
+  background: #ffffff;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h2{
+    padding-top: 30px;
+  }
+  .tips-images{
+    height: 300px;
+    width: 1000px;
+    background-color: #E9ECEF;
+  }
+  .tips-button{
+    background: none;
+    border: 1px solid #000000;
+    font-size: 2.1em;
+    font-weight: lighter;
+    margin-top: 50px;
+    height: 100px;
+    width: 300px;
+  }
 }
