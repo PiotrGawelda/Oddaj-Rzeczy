@@ -4,7 +4,7 @@ import '../../scss/components style/tips-section-style.scss';
 class TipsSection extends Component {
     render() {
         return(
-            <section className="TipsSection">
+            <section className="tips-section">
                 <h1>TipsSection</h1>
             </section>
         )
