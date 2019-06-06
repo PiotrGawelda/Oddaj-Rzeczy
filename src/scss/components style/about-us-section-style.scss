@@ -2,17 +2,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .about-us-section {
+  .block-center{
+    @extend %display-flex;
+  }
   background-color: #E9ECEF;
   height: 100vh;
+  @extend %display-flex;
   .about-us-info{
-    @extend %display-flex;
-    width: 50%;
+    width: 30%;
+    height: 300px;
+    text-align: center;
   }
   .about-us-image{
     width: 50%;
+    height: 300px;
   }
 }
