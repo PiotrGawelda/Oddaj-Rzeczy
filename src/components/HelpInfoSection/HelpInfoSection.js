@@ -6,7 +6,14 @@ class HelpInfoSection extends Component {
         return(
             <section className="help-info-section">
                 <div className="container">
-                    <h1>HelpInfoSection</h1>
+                    <div className="">
+                        <h2>Komu pomagamy?</h2>
+                        <img src="../.././images/decoration.png" alt="Black frame"/>
+                        <div className="help-us-blocks">Fundacjom</div>
+                        <div className="help-us-blocks">Organizacjom pozarządowym</div>
+                        <div className="help-us-blocks">Lokalnym zbiórkom</div>
+                        <p>W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagamy i czego potrzebują.</p>
+                    </div>
                 </div>
             </section>
         )

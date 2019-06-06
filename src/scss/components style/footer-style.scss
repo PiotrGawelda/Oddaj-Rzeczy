@@ -1,4 +1,24 @@
 .footer{
   height: 100vh;
   background-image: url("/../../images/footer_bg_img.jpg");
+  .contact-block-position{
+    display: flex;
+    justify-content: flex-end;
+    .contact-block{
+      height: 350px;
+      width: 700px;
+      h3{
+        text-align: center;
+      }
+      .footer-form input{
+        margin: 30px;
+        border: none;
+        border-bottom: 1px solid #000000;
+        width: 285px;
+      }
+      .footer-form input:nth-child(4){
+        width: 630px;
+      }
+    }
+  }
 }

@@ -6,8 +6,18 @@ class Footer extends Component {
     render() {
         return(
             <footer className="footer">
-                <div className="container">
-                    <h1>Footer</h1>
+                <div className="container contact-block-position">
+                    <div className="contact-block">
+                        <h3>Skontaktuj się z nami</h3>
+                        <img src="../.././images/decoration.png" alt="Black frame"/>
+                        <div className="footer-form">
+                            <p>FORMULARZ KONTAKTOWY</p>
+                            <input type="text" name="footer-form" placeholder="Imie"/>
+                            <input type="text" name="footer-form" placeholder="Email"/>
+                            <input type="text" name="footer-form" placeholder="Wiadomość"/>
+                            <button name="footer-form">Wyślij</button>
+                        </div>
+                    </div>
                 </div>
             </footer>
         )

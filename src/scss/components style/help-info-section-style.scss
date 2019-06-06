@@ -1,4 +1,7 @@
+@import "about-us-section-style";
+
 .help-info-section{
   height: 100vh;
   background-color: #ffffff;
+  @extend %display-flex;
 }
