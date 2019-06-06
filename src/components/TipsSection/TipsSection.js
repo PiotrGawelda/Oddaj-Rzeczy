@@ -11,18 +11,30 @@ class TipsSection extends Component {
                         <img src="../.././images/decoration.png" alt="Black frame"/>
                     </div>
                     <div className="tips-images">
-                        <div className="">
+                        <div className="tips-blocks">
                             <i className="fas fa-arrow-down"></i>
-                            <p>ubrania, zabawki. sprzęt i inne</p>
+                            <div>
+                                <p>Wybierz rzeczy</p>
+                                <p>ubrania, zabawki. sprzęt i inne</p>
+                            </div>
                         </div>
-                        <div className="">
-                            <p>skorzystaj z worków na śmieci</p>
+                        <div className="tips-blocks">
+                            <div>
+                                <p>Spakuj je</p>
+                                <p>skorzystaj z worków na śmieci</p>
+                            </div>
                         </div>
-                        <div className="">
-                            <p>wybierz zaufane miejsce</p>
+                        <div className="tips-blocks">
+                            <div>
+                                <p>Zdecuduj komu chcesz pomóc</p>
+                                <p>wybierz zaufane miejsce</p>
+                            </div>
                         </div>
-                        <div className="">
-                            <p>kurier przyjedzie w dogodnym terminie</p>
+                        <div className="tips-blocks">
+                            <div>
+                                <p>Zamów kuriera</p>
+                                <p>kurier przyjedzie w dogodnym terminie</p>
+                            </div>
                         </div>
                     </div>
                     <button className="tips-button">ZAŁÓŻ KONTO</button>
