@@ -6,8 +6,9 @@ class Links extends Component {
         return(
             <nav className="navbar">
                 <div className="container">
-                    <div className="nav-links">
-                        <Link activeClass="active"
+                    <div className="nav-links-blocks">
+                        <Link className="nav-links"
+                              activeClass="active"
                               to="banner-section"
                               spy={true}
                               smooth={true}
@@ -23,7 +24,8 @@ class Links extends Component {
                             Start
                         </Link>
 
-                        <Link activeClass="active"
+                        <Link className="nav-links"
+                              activeClass="active"
                               to="tips-section"
                               spy={true}
                               smooth={true}
@@ -39,7 +41,8 @@ class Links extends Component {
                             O co chodzi?
                         </Link>
 
-                        <Link activeClass="active"
+                        <Link className="nav-links"
+                              activeClass="active"
                               to="about-us-section"
                               spy={true}
                               smooth={true}
@@ -55,7 +58,8 @@ class Links extends Component {
                             O nas
                         </Link>
 
-                        <Link activeClass="active"
+                        <Link className="nav-links"
+                              activeClass="active"
                               to="help-info-section"
                               spy={true}
                               smooth={true}
@@ -71,7 +75,8 @@ class Links extends Component {
                             Fundacje i organizacje
                         </Link>
 
-                        <Link activeClass="active"
+                        <Link className="nav-links"
+                              activeClass="active"
                               to="footer"
                               spy={true}
                               smooth={true}

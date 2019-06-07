@@ -4,14 +4,14 @@ import '../../scss/components style/help-info-section-style.scss';
 class HelpInfoSection extends Component {
     render() {
         return(
-            <section className="help-info-section">
-                <div className="container">
-                    <div className="">
+            <section className="container">
+                <div className="help-info-section">
+                    <div className="help-info-block">
                         <h2>Komu pomagamy?</h2>
-                        <img src="../.././images/decoration.png" alt="Black frame"/>
-                        <div className="help-us-blocks">Fundacjom</div>
-                        <div className="help-us-blocks">Organizacjom pozarządowym</div>
-                        <div className="help-us-blocks">Lokalnym zbiórkom</div>
+                        {/*<img src="../.././images/decoration.png" alt="Black frame"/>*/}
+                        <button>Fundacjom</button>
+                        <button>Organizacjom pozarządowym</button>
+                        <button>Lokalnym zbiórkom</button>
                         <p>W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagamy i czego potrzebują.</p>
                     </div>
                 </div>

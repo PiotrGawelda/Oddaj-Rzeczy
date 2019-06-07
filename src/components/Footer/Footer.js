@@ -5,7 +5,7 @@ import '../../scss/components style/footer-style.scss';
 class Footer extends Component {
     render() {
         return(
-            <footer className="footer">
+            <div className="footer">
                 <div className="container contact-block-position">
                     <div className="contact-block">
                         <h3>Skontaktuj się z nami</h3>
@@ -19,7 +19,10 @@ class Footer extends Component {
                         </div>
                     </div>
                 </div>
-            </footer>
+                <footer className="footer-signature">
+                    <p>Copyright 2019 <sup> &copy; </sup> by Piotr Gawełda </p>
+                </footer>
+            </div>
         )
     }
 }
