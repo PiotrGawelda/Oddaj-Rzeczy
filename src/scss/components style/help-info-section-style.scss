@@ -1,23 +1,30 @@
+@import "about-us-section-style";
+
 .help-info-section{
   height: 100vh;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 20px;
+  padding-top: 50px;
   .help-info-block{
     width: 480px;
     height: 400px;
     button{
       width: 140px;
       height: 60px;
-      margin: 50px 10px;
+      margin: 40px 10px;
       float: left;
       background: none;
       border: none;
+      @extend %display-flex;
+      flex-direction: column;
     }
     button:hover{
       border: 1px solid #000000;
+    }
+    button:nth-of-type(3){
+      padding: 20px;
     }
   }
 }
