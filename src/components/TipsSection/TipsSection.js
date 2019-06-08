@@ -12,26 +12,29 @@ class TipsSection extends Component {
                     </div>
                     <div className="tips-images">
                         <div className="tips-blocks">
-                            <i className="fas fa-arrow-down"></i>
                             <div>
+                                <i className="fas fa-praying-hands fa-4x"></i>
                                 <p>Wybierz rzeczy</p>
                                 <p>ubrania, zabawki. sprzęt i inne</p>
                             </div>
                         </div>
                         <div className="tips-blocks">
                             <div>
+                                <i className="fas fa-arrow-down fa-4x"></i>
                                 <p>Spakuj je</p>
                                 <p>skorzystaj z worków na śmieci</p>
                             </div>
                         </div>
                         <div className="tips-blocks">
                             <div>
+                                <i className="fas fa-binoculars fa-3x ocular-position"></i>
                                 <p>Zdecuduj komu chcesz pomóc</p>
                                 <p>wybierz zaufane miejsce</p>
                             </div>
                         </div>
                         <div className="tips-blocks">
                             <div>
+                                <i className="fas fa-users fa-4x"></i>
                                 <p>Zamów kuriera</p>
                                 <p>kurier przyjedzie w dogodnym terminie</p>
                             </div>

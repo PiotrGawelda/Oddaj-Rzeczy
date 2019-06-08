@@ -21,6 +21,10 @@ class Footer extends Component {
                 </div>
                 <footer className="footer-signature">
                     <p>Copyright 2019 <sup> &copy; </sup> by Piotr Gawełda </p>
+                    <div className="media-icons">
+                        <i className="fab fa-facebook-f "></i>
+                        <i className="fab fa-instagram"></i>
+                    </div>
                 </footer>
             </div>
         )
