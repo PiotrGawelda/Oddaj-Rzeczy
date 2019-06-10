@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import {Link} from "react-scroll";
+import Container from "react-bootstrap/Container";
+import BgHeader from "../../images/header_start_img.jpg";
 
 class Links extends Component {
     render() {
         return(
-            <nav className="navbar">
-                <div className="container">
+            <nav className="pg-navbar" style={{backgroundImage: `url(${BgHeader})`}}>
+                <Container>
                     <div className="nav-links-blocks">
                         <Link className="nav-links"
                               activeClass="active"
@@ -15,7 +17,7 @@ class Links extends Component {
                               hashSpy={true}
                               offset={-140}
                               duration={500}
-                              delay={800}
+                              delay={200}
                               isDynamic={true}
                               onSetActive={this.handleSetActive}
                               onSetInactive={this.handleSetInactive}
@@ -32,7 +34,7 @@ class Links extends Component {
                               hashSpy={true}
                               offset={0}
                               duration={500}
-                              delay={800}
+                              delay={200}
                               isDynamic={true}
                               onSetActive={this.handleSetActive}
                               onSetInactive={this.handleSetInactive}
@@ -49,7 +51,7 @@ class Links extends Component {
                               hashSpy={true}
                               offset={0}
                               duration={500}
-                              delay={800}
+                              delay={200}
                               isDynamic={true}
                               onSetActive={this.handleSetActive}
                               onSetInactive={this.handleSetInactive}
@@ -66,7 +68,7 @@ class Links extends Component {
                               hashSpy={true}
                               offset={0}
                               duration={500}
-                              delay={800}
+                              delay={200}
                               isDynamic={true}
                               onSetActive={this.handleSetActive}
                               onSetInactive={this.handleSetInactive}
@@ -83,7 +85,7 @@ class Links extends Component {
                               hashSpy={true}
                               offset={0}
                               duration={500}
-                              delay={800}
+                              delay={200}
                               isDynamic={true}
                               onSetActive={this.handleSetActive}
                               onSetInactive={this.handleSetInactive}
@@ -92,7 +94,7 @@ class Links extends Component {
                             Kontakt
                         </Link>
                     </div>
-            </div>
+                </Container>
             </nav>
         )
     }

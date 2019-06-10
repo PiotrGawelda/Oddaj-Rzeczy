@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
 import '../../scss/components style/footer-style.scss';
-// import FooterImage from './../../images/footer_bg_img.jpg';
+import Decoration from "../Decoration";
+import FooterImg from './../../images/footer_bg_img.jpg';
 
 class Footer extends Component {
     render() {
         return(
-            <div className="footer">
+            <div className="footer" style={{backgroundImage: `url(${FooterImg})`}}>
                 <div className="container contact-block-position">
                     <div className="contact-block">
                         <h3>Skontaktuj się z nami</h3>
-                        <img src="../.././images/decoration.png" alt="Black frame"/>
+                        <Decoration/>
                         <div className="footer-form">
                             <p>FORMULARZ KONTAKTOWY</p>
                             <input type="text" name="footer-form" placeholder="Imie"/>
                             <input type="text" name="footer-form" placeholder="Email"/>
                             <input type="text" name="footer-form" placeholder="Wiadomość"/>
-                            <button name="footer-form">Wyślij</button>
+                            <div className="form-button">
+                                <button name="footer-form">Wyślij</button>
+                            </div>
                         </div>
                     </div>
                 </div>

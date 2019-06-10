@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../scss/components style/tips-section-style.scss';
+import Decoration from "../Decoration";
 
 class TipsSection extends Component {
     render() {
@@ -8,7 +9,7 @@ class TipsSection extends Component {
                 <div className="tips-section">
                     <div className="tips-text">
                         <h2>Wystarczą 4 proste kroki</h2>
-                        <img src="../.././images/decoration.png" alt="Black frame"/>
+                        <Decoration/>
                     </div>
                     <div className="tips-images">
                         <div className="tips-blocks">

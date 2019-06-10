@@ -1,6 +1,8 @@
 .footer{
   height: 100vh;
   background-image: url("/../../images/footer_bg_img.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
   .contact-block-position{
     display: flex;
     justify-content: flex-end;
@@ -28,11 +30,16 @@
         input:nth-child(4){
           width: 500px;
         }
-        button {
-          width: 90px;
-          height: 45px;
-          background: none;
-          border: 1px solid #000000;
+        .form-button{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          button {
+            width: 90px;
+            height: 45px;
+            background: none;
+            border: 1px solid #000000;
+          }
         }
       }
     }

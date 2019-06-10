@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../../scss/components style/banner-section-style.scss';
+// import {Row, Col, Container} from "react-bootstrap";
+
 
 class BannerSection extends Component {
     render() {

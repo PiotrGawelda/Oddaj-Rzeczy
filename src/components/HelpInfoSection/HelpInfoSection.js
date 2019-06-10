@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../scss/components style/help-info-section-style.scss';
+import Decoration from "../Decoration";
 
 class HelpInfoSection extends Component {
     render() {
@@ -8,7 +9,7 @@ class HelpInfoSection extends Component {
                 <div className="help-info-section">
                     <div className="help-info-block">
                         <h2>Komu pomagamy?</h2>
-                        {/*<img src="../.././images/decoration.png" alt="Black frame"/>*/}
+                        <Decoration/>
                         <button>Fundacjom</button>
                         <button>Organizacjom pozarządowym</button>
                         <button>Lokalnym zbiórkom</button>
