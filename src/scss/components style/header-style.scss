@@ -1,19 +1,44 @@
+.header{
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nav-login-btn{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -5px;
+  input{
+    background: none;
+    border: none;
+    padding: 7px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  input:hover{
+    border: 1px solid gold;
+  }
+}
+
 .pg-navbar{
   font-size: 1em;
   height: 100vh;
-  //background-image: url("../images/header_start_img.jpg");
-  align-items: flex-start;
-  background-repeat: no-repeat;
   .nav-links-blocks {
+    float: right;
     .nav-links{
-      padding: 20px 30px;
-      margin: 10px;
+      padding: 15px 20px;
+      margin: 5px;
       float: left;
     }
     .nav-links:hover{
       border: 1px solid #000000;
     }
   }
+}
+
+.header-start-help{
+  border: 1px solid black;
+  //height: 200px;
+  //width: 500px;
 }
 
 @media screen and (max-width: 720px) {

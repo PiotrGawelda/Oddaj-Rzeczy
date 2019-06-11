@@ -6,8 +6,12 @@ import BgHeader from "../../images/header_start_img.jpg";
 class Links extends Component {
     render() {
         return(
-            <nav className="pg-navbar" style={{backgroundImage: `url(${BgHeader})`}}>
+            <nav className="pg-navbar">
                 <Container>
+                    <div className="nav-login-btn container">
+                        <input type="submit" value="Zaloguj" name="nav-login"/>
+                        <input type="submit" value="Załóż konto" name="nav-login"/>
+                    </div>
                     <div className="nav-links-blocks">
                         <Link className="nav-links"
                               activeClass="active"

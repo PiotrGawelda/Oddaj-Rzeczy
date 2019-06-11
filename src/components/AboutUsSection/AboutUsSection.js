@@ -14,7 +14,7 @@ class AboutUsSection extends Component {
                         <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.  Curabitur et ligula. Ut molestie a, ultricies porta urna.</p>
                     </div>
                     <div className="about-us-image">
-                        {/*<img src={PeopleImg} alt="People"/>*/}
+                        <img src={PeopleImg} alt="People"/>
                     </div>
                 </div>
             </section>
