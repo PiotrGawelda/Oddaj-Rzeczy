@@ -7,10 +7,12 @@ class Footer extends Component {
     render() {
         return(
             <div className="footer" style={{backgroundImage: `url(${FooterImg})`}}>
-                <div className="container contact-block-position">
+                <div className="contact-block-position">
                     <div className="contact-block">
-                        <h3>Skontaktuj się z nami</h3>
-                        <Decoration/>
+                        <div className="frame-position">
+                            <h3>Skontaktuj się z nami</h3>
+                            <Decoration/>
+                        </div>
                         <div className="footer-form">
                             <p>FORMULARZ KONTAKTOWY</p>
                             <input type="text" name="footer-form" placeholder="Imie"/>
@@ -22,8 +24,10 @@ class Footer extends Component {
                         </div>
                     </div>
                 </div>
-                <footer className="footer-signature">
-                    <p>Copyright 2019 <sup> &copy; </sup> by Piotr Gawełda </p>
+                <footer className="footer-signature container">
+                    <div className="p-position">
+                        <p>Copyright 2019 <sup> &copy; </sup> by Piotr Gawełda </p>
+                    </div>
                     <div className="media-icons">
                         <i className="fab fa-facebook-f "></i>
                         <i className="fab fa-instagram"></i>

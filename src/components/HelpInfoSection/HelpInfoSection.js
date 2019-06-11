@@ -8,8 +8,10 @@ class HelpInfoSection extends Component {
             <section className="container">
                 <div className="help-info-section">
                     <div className="help-info-block">
-                        <h2>Komu pomagamy?</h2>
-                        <Decoration/>
+                        <div>
+                            <h2>Komu pomagamy?</h2>
+                            <Decoration/>
+                        </div>
                         <button>Fundacjom</button>
                         <button>Organizacjom pozarządowym</button>
                         <button>Lokalnym zbiórkom</button>

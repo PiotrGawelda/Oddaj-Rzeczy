@@ -15,8 +15,8 @@
     width: 50%;
     height: 500px;
     text-align: center;
-    margin-right: 120px;
-    margin-left: -120px;
+    margin-right: 90px;
+    margin-left: -90px;
     p{
       margin-top: 20px;
       font-size: 1.5em;
@@ -24,10 +24,12 @@
   }
 
   .about-us-image{
-    width: 50%;
-    height: 700px;
+    width: 57%;
+    height: 650px;
+    padding-left: 60px;
     img{
       height: 100%;
+
     }
   }
 }
