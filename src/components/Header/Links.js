@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Link} from "react-scroll";
 import Container from "react-bootstrap/Container";
 import BgHeader from "../../images/header_start_img.jpg";
+import Decoration from "../Decoration";
 
 class Links extends Component {
     render() {
@@ -99,6 +100,14 @@ class Links extends Component {
                         </Link>
                     </div>
                 </Container>
+                <div className="header-help-position">
+                    <div className="header-start-help">
+                        <h2>Zacznij pomagac! Oddaj niechciane rzeczy w zaufane ręce</h2>
+                        <Decoration/>
+                    </div>
+                    <button>ODDAJ RZECZY</button>
+                    <button>ZORGANIZUJ ZBIÓRKĘ</button>
+                </div>
             </nav>
         )
     }

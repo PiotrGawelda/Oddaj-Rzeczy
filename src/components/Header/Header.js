@@ -14,13 +14,6 @@ class Header extends Component {
                       crossOrigin="anonymous"/>
                       <header style={{backgroundImage: `url(${BgHeader})`}} className="header">
                           <Links/>
-                          <Container>
-                              {/*<div className="header-help-position">*/}
-                              {/*    <div className="header-start-help">*/}
-                              {/*        <h2>Zacznij pomagac! Oddaj niechciane rzeczy w zaufane ręce</h2>*/}
-                              {/*    </div>*/}
-                              {/*</div>*/}
-                          </Container>
                       </header>
             </>
         )
