@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Link} from "react-scroll";
 import Container from "react-bootstrap/Container";
-import BgHeader from "../../images/header_start_img.jpg";
 import Decoration from "../Decoration";
+import Login from "../Login";
 
 class Links extends Component {
     render() {
@@ -10,6 +10,7 @@ class Links extends Component {
             <nav className="pg-navbar">
                 <Container>
                     <div className="nav-login-btn container">
+                        <Login/>
                         <input type="submit" value="Zaloguj" name="nav-login"/>
                         <input type="submit" value="Załóż konto" name="nav-login"/>
                     </div>

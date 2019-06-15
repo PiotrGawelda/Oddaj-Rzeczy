@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../../scss/components style/header-style.scss';
 import Links from "./Links";
 import BgHeader from "../../images/header_start_img.jpg";
-import Container from "react-bootstrap/Container"
 
 class Header extends Component {
     render() {
