@@ -10,7 +10,7 @@ class Links extends Component {
             <nav className="pg-navbar">
                 <Container>
                     <div className="nav-login-btn container">
-                        <Login/>
+                        {/*<Login/>*/}
                         <input type="submit" value="Zaloguj" name="nav-login"/>
                         <input type="submit" value="Załóż konto" name="nav-login"/>
                     </div>

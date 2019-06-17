@@ -9,25 +9,52 @@
   padding-top: 50px;
   .help-info-block{
     width: 480px;
-    height: 400px;
+    height: 310px;
     h2{
       margin-bottom: 20px;
     }
-    button{
+    > button{
       width: 140px;
       height: 60px;
-      margin: 40px 10px;
+      margin: 30px 10px;
       float: left;
       background: none;
       border: none;
       @extend %display-flex;
       flex-direction: column;
     }
-    button:hover{
+    > button:hover{
       border: 1px solid #000000;
     }
-    button:nth-of-type(3){
-      padding: 20px;
+    p{
+      margin-bottom: 20px;
+    }
+    .slider {
+      height: 250px;
+      width: 1100px;
+      margin-left: -65%;
+      opacity: .7;
+      .left-side-slider{
+        height: 100%;
+        float: left;
+        text-align: left;
+        p{
+          border-bottom: 1px solid black;
+          padding-bottom: 20px;
+        }
+      }
+      .right-side-slider{
+        width: 50%;
+        height: 100%;
+        float: left;
+        p{
+          border-bottom: 1px solid black;
+          padding: 25.8px 0;
+          text-align: right;
+          float: right;
+          width: 500px;
+        }
+      }
     }
   }
 }
