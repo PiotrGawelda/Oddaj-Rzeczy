@@ -2,18 +2,14 @@ import React, { Component } from 'react';
 import {Link} from "react-scroll";
 import Container from "react-bootstrap/Container";
 import Decoration from "../Decoration";
-import Login from "../Login";
+import Login from "../Login/Login";
 
 class Links extends Component {
     render() {
         return(
             <nav className="pg-navbar">
                 <Container>
-                    <div className="nav-login-btn container">
-                        {/*<Login/>*/}
-                        <input type="submit" value="Zaloguj" name="nav-login"/>
-                        <input type="submit" value="Załóż konto" name="nav-login"/>
-                    </div>
+                   <Login/>
                     <div className="nav-links-blocks">
                         <Link className="nav-links"
                               activeClass="active"
