@@ -1,6 +1,7 @@
 .header{
   background-repeat: no-repeat;
   background-size: contain;
+  height: 100vh;
 }
 
 .nav-login-btn{
@@ -24,7 +25,6 @@
 
 .pg-navbar{
   font-size: 1em;
-  height: 100vh;
   .nav-links-blocks {
     float: right;
     .nav-links{
