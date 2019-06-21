@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import Decoration from "../Decoration";
 import Links from "../Header/Links";
+import {Link} from "react-router-dom";
 
 class LoginSection extends Component {
     render() {
@@ -18,7 +19,9 @@ class LoginSection extends Component {
                         <input type="submit" name="login-form" value="Przypomnij hasło" id="pass-forget"/>
                     </div>
                     <div className="login-block-btn">
-                            <input type="submit" name="login=form" value="Załóż konto"/>
+                        <Link to="/RegisterSection" style={{textDecoration: `none`}}>
+                            <input type="submit" name="login=form" value="Załóż konto" id="first-btn"/>
+                        </Link>
                             <input type="submit" name="login=form" value="Zaloguj się"/>
                     </div>
                 </section>

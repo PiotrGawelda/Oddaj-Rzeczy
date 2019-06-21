@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import Decoration from "../Decoration";
 import Links from "../Header/Links";
+import {Link} from "react-router-dom";
 
 class RegisterSection extends Component {
     render() {
@@ -18,8 +19,10 @@ class RegisterSection extends Component {
                         </div>
                     </div>
                     <div className="register-block-btn">
+                        <Link to="/LoginSection" style={{textDecoration: `none`}}>
+                            <input type="submit" name="register=form" value="Zaloguj się"/>
+                        </Link>
                         <input type="submit" name="register=form" value="Załóż konto"/>
-                        <input type="submit" name="register=form" value="Zaloguj się"/>
                     </div>
                 </section>
             </header>
