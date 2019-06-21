@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Link} from "react-scroll";
 import Container from "react-bootstrap/Container";
 import Login from "../Login/Login";
-import OrganisationBlock from "./OrganisationBlock";
 
 class Links extends Component {
     render() {
@@ -97,7 +96,6 @@ class Links extends Component {
                         </Link>
                     </div>
                 </Container>
-                <OrganisationBlock/>
             </nav>
         )
     }

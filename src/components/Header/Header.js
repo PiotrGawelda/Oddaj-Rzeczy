@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../../scss/components style/header-style.scss';
 import Links from "./Links";
 import BgHeader from "../../images/header_start_img.jpg";
+import OrganisationBlock from "./OrganisationBlock";
 
 class Header extends Component {
     render() {
@@ -13,6 +14,7 @@ class Header extends Component {
                       crossOrigin="anonymous"/>
                       <header style={{backgroundImage: `url(${BgHeader})`}} className="header">
                           <Links/>
+                          <OrganisationBlock/>
                       </header>
             </>
         )
