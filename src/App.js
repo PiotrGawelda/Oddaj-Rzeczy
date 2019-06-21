@@ -11,6 +11,22 @@ import RegisterSection from "./components/Login/RegisterSection";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 
+class Main extends Component{
+    render(){
+        return(
+            <>
+                <Header/>
+                <BannerSection/>
+                <TipsSection/>
+                <AboutUsSection/>
+                <HelpInfoSection/>
+                <Footer/>
+            </>
+        )
+    }
+
+}
+
 class Error extends Component {
     render(){
         return(
@@ -22,19 +38,14 @@ class Error extends Component {
 function App() {
     return (
         <>
-            <Header/>
             <Router>
                 <Switch>
+                    <Route exact path='/' component={Main} />
                     <Route path="/LoginSection" component={LoginSection}/>
                     <Route path="/RegisterSection" component={RegisterSection}/>
                     <Route component={Error}/>
                 </Switch>
             </Router>
-            <BannerSection/>
-            <TipsSection/>
-            <AboutUsSection/>
-            <HelpInfoSection/>
-            <Footer/>
         </>
     );
 }
