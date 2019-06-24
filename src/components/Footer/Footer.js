@@ -6,7 +6,7 @@ import FooterImg from './../../images/footer_bg_img.jpg';
 class Footer extends Component {
     render() {
         return(
-            <div className="footer" style={{backgroundImage: `linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%), url(${FooterImg})`}}>
+            <div className="footer" style={{backgroundImage: `linear-gradient(to right, rgba(155,155,155,0) 46%,rgba(155,155,155,0.22) 58%,rgba(165,165,165,1) 100%), url(${FooterImg})`}}>
                 <div className="contact-block-position">
                     <div className="contact-block">
                         <div className="frame-position">
