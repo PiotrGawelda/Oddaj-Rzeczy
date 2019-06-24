@@ -14,8 +14,8 @@ class RegisterSection extends Component {
                             <h3>Załóż konto</h3>
                             <Decoration/>
                             <input type="text" name="register-form" placeholder="Email"/>
-                            <input type="text" name="register-form" placeholder="Hasło"/>
-                            <input type="text" name="register-form" placeholder="Powtórz hasło"/>
+                            <input type="password" name="register-form" placeholder="Hasło"/>
+                            <input type="password" name="register-form" placeholder="Powtórz hasło"/>
                         </div>
                     </div>
                     <div className="register-block-btn">
