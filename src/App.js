@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import LoginSection from "./components/Login/LoginSection";
 import RegisterSection from "./components/Login/RegisterSection";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-
+import LoggedIn from "./components/LoggedIn/LoggedIn";
 
 class Main extends Component{
     render(){
@@ -24,8 +24,8 @@ class Main extends Component{
             </>
         )
     }
-
 }
+
 
 class Error extends Component {
     render(){
@@ -43,6 +43,7 @@ function App() {
                     <Route exact path='/' component={Main} />
                     <Route path="/LoginSection" component={LoginSection}/>
                     <Route path="/RegisterSection" component={RegisterSection}/>
+                    <Route path="/LoggedIn" component={LoggedIn}/>
                     <Route component={Error}/>
                 </Switch>
             </Router>
