@@ -34,7 +34,9 @@ class LoginSection extends Component {
                         <Link to="/RegisterSection" style={{textDecoration: `none`}}>
                             <input type="submit" name="login=form" value="Załóż konto" id="first-btn"/>
                         </Link>
+                        <Link to="/LoggedIn" style={{textDecoration: `none`}}>
                             <input type="submit" name="login=form" value="Zaloguj się" onClick={this.submitLogin}/>
+                        </Link>
                     </div>
                 </section>
             </header>

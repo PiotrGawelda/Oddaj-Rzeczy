@@ -10,8 +10,6 @@ class Login extends React.Component {
                     <Link to="/LoginSection">
                         <input type="submit" value="Zaloguj" name="nav-login"/>
                     </Link>
-                </BrowserRouter>
-                <BrowserRouter>
                     <Link to="/RegisterSection">
                         <input type="submit" value="Załóż konto" name="nav-login"/>
                     </Link>

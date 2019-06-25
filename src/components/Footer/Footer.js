@@ -7,6 +7,9 @@ class Footer extends Component {
     render() {
         return(
             <div className="footer" style={{backgroundImage: `linear-gradient(to right, rgba(155,155,155,0) 46%,rgba(155,155,155,0.22) 58%,rgba(165,165,165,1) 100%), url(${FooterImg})`}}>
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+                      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+                      crossOrigin="anonymous"/>
                 <div className="contact-block-position">
                     <div className="contact-block">
                         <div className="frame-position">
