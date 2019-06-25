@@ -24,3 +24,41 @@
     }
   }
 }
+
+.login-block{
+  margin: 220px 770px;
+  height: 200px;
+  width: 530px;
+  p{
+    font-size: 1.8em;
+  }
+  .login-info-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    img{
+      margin-bottom: 25px;
+    }
+  }
+  .square-header-block{
+    display: flex;
+    .square-header{
+      margin-top: 20px;
+      margin-right: 20px;
+      border: 1px solid #000000;
+      transform: rotate(-45deg);
+      width: 110px;
+      height: 110px;
+      p:first-of-type{
+        padding-left: 65px;
+      }
+      p{
+        font-size: 1em;
+        transform: rotate(45deg);
+        text-align: center;
+      }
+    }
+  }
+}
