@@ -1,33 +1,39 @@
 import React, {Component} from "react";
+import LoggedInImage from "../../images/loggin-in.png";
+import FirstStep from "./FirstStep";
+import SecondStep from "./SecondStep";
 
 class StepsItemSection extends Component{
+    state = {
+        step: 1,
+        renewClothes: "",
+        throwClothes: "",
+        toys: "",
+        books: "",
+        other: ""
+    };
+
+    nextStep = () => {
+        const {step} = this.state;
+        this.setState({
+            step: step +1
+        })
+    };
+
+    handleOnSave = (data) =>{
+        this.setState(
+            prevState => ({inputs: {...data, ...prevState.inputs}})
+        )
+    };
+
     render() {
+        console.log(this.state);
+        const {step} = this.state;
+        const {renewClothes, throwClothes, toys, books, other} = this.state;
         return(
-            <section className="steps-item-section">
-                <div className="steps-item-block">
-                    <p>Krok 1/4</p>
-                    <h2>Zaznacz co chcesz oddać:</h2>
-                    <form className="steps-form">
-                        <label>
-                            <input type="checkbox" className="checkbox"/> ubrania, które nadają się do ponownego użycia
-                        </label>
-                        <label>
-                            <input type="checkbox"/> ubrania, do wyrzucenia
-                        </label>
-                        <label>
-                            <input type="checkbox"/> zabawki
-                        </label>
-                        <label>
-                            <input type="checkbox"/> książki
-                        </label>
-                        <label>
-                            <input type="checkbox"/> inne
-                        </label>
-                        <label>
-                            <input type="submit" value="Dalej" id="steps-btn"/>
-                        </label>
-                    </form>
-                </div>
+            <section className="steps-item-section" style={{backgroundImage: `url(${LoggedInImage})`}}>
+                <FirstStep onSave = {this.handleOnSave}/>
+                {/*<SecondStep onSave = {this.handleOnSave}/>*/}
             </section>
         )
     }
