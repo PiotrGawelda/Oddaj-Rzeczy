@@ -10,7 +10,7 @@ class FirstStep extends Component{
             toys: "",
             books: "",
             other: "",
-            dupa: ""
+            test: ""
         }
     }
 
