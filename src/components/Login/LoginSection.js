@@ -12,9 +12,15 @@ class LoginSection extends Component {
         };
 }
 
- submitLogin = () => {
-        
- };
+    handleOnChange = (name) => (event) => {
+        this.setState({
+            [name]: event.target.value
+        })
+    };
+
+    login = () => {
+        fetch("http://localhost:3001/users")
+    };
 
     render() {
         return(
@@ -25,10 +31,10 @@ class LoginSection extends Component {
                         <div className="login-block-form">
                             <h3>Zaloguj się</h3>
                             <Decoration/>
-                            <input type="text" name="login-form" placeholder="Email"/>
-                            <input type="password" name="login-form" placeholder="Hasło"/>
+                            <input type="text" name="login-form" placeholder="Email" onChange={this.handleOnChange("username")}/>
+                            <input type="password" name="login-form" placeholder="Hasło" onChange={this.handleOnChange("password")}/>
                          </div>
-                        <input type="submit" name="login-form" value="Przypomnij hasło" id="pass-forget"/>
+                        <input type="button" name="login-form" value="Przypomnij hasło" id="pass-forget" onClick={this.login}/>
                     </div>
                     <div className="login-block-btn">
                         <Link to="/RegisterSection" style={{textDecoration: `none`}}>
