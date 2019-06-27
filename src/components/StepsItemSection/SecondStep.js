@@ -10,7 +10,6 @@ class SecondStep extends Component {
     }
 
     handleOnChange = (name) => (event) => {
-        console.log(event.target.checked);
         this.setState({
             [name]: event.target.value
         })
@@ -36,8 +35,14 @@ class SecondStep extends Component {
                                   - wybierz -
                               </option>
                               <option value={1}>
-                                  1 worek
+                                1 worek
                               </option>
+                            <option value={2}>
+                                2 worki
+                            </option>
+                            <option value={3}>
+                                3 worki
+                            </option>
                           </select>
                     </label>
                     <label>

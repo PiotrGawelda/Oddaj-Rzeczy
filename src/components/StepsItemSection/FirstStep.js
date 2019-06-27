@@ -10,12 +10,11 @@ class FirstStep extends Component{
             toys: "",
             books: "",
             other: "",
-            test: ""
         }
     }
 
     handleOnChange = (name) => (event) => {
-        console.log(event.target.checked);
+
         this.setState({
             [name]: event.target.value
         })
@@ -38,22 +37,19 @@ class FirstStep extends Component{
                         <input type="checkbox" className="checkbox" onChange={this.handleOnChange("renewClothes")}/> ubrania, które nadają się do ponownego użycia
                     </label>
                     <label>
-                        <input type="checkbox"/> ubrania, do wyrzucenia
+                        <input type="checkbox" onChange={this.handleOnChange("throwClothes")}/> ubrania, do wyrzucenia
                     </label>
                     <label>
-                        <input type="checkbox"/> zabawki
+                        <input type="checkbox" onChange={this.handleOnChange("toys")}/> zabawki
                     </label>
                     <label>
-                        <input type="checkbox"/> książki
+                        <input type="checkbox" onChange={this.handleOnChange("books")}/> książki
                     </label>
                     <label>
-                        <input type="checkbox"/> inne
+                        <input type="checkbox" onChange={this.handleOnChange("other")}/> inne
                     </label>
                     <label>
                         <input type="submit" value="Dalej" id="steps-btn" />
-                    </label>
-                    <label>
-                        <input type="text" onChange={this.handleOnChange("dupa")}/>
                     </label>
                 </form>
             </div>
