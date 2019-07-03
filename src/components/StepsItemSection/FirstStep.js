@@ -49,7 +49,7 @@ class FirstStep extends Component{
                         <input type="checkbox" onChange={this.handleOnChange("other")}/> inne
                     </label>
                     <label>
-                        <input type="submit" value="Dalej" id="steps-btn" />
+                        <input type="submit" value="Dalej" className="steps-btn" />
                     </label>
                 </form>
             </div>
