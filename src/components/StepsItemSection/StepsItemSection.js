@@ -32,8 +32,8 @@ class StepsItemSection extends Component{
         const {renewClothes, throwClothes, toys, books, other} = this.state;
         return(
             <section className="steps-item-section" style={{backgroundImage: `url(${LoggedInImage})`}}>
-                <FirstStep onSave = {this.handleOnSave}/>
-                {/*<SecondStep onSave = {this.handleOnSave}/>*/}
+                {/*<FirstStep onSave = {this.handleOnSave}/>*/}
+                <SecondStep onSave = {this.handleOnSave}/>
             </section>
         )
     }

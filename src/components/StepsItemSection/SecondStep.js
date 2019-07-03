@@ -26,7 +26,7 @@ class SecondStep extends Component {
         return(
             <div className="steps-item-block">
                 <p>Krok 2/4</p>
-                <h2>Podaj liczbę 60 l worków, w które spokowałeś/aś rzeczy:</h2>
+                <h2 id="sec-step-h2">Podaj liczbę 60 l worków, w które spokowałeś/aś rzeczy:</h2>
                 <form className="steps-form" onSubmit={this.handleOnSubmit}>
                     <label>
                         Liczba 60 l worków
@@ -46,10 +46,8 @@ class SecondStep extends Component {
                           </select>
                     </label>
                     <label>
-                        <input type="submit" value="Wstecz"/>
-                    </label>
-                    <label>
-                        <input type="submit" value="Dalej"/>
+                        <input type="submit" value="Wstecz" className="btn-position steps-btn"/>
+                        <input type="submit" value="Dalej" className="btn-position steps-btn"/>
                     </label>
                 </form>
             </div>
