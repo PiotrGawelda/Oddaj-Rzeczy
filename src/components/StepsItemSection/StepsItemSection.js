@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import LoggedInImage from "../../images/loggin-in.png";
 import FirstStep from "./FirstStep";
 import SecondStep from "./SecondStep";
+import ThirdStep from "./ThirdStep";
 
 class StepsItemSection extends Component{
     state = {
@@ -33,7 +34,8 @@ class StepsItemSection extends Component{
         return(
             <section className="steps-item-section" style={{backgroundImage: `url(${LoggedInImage})`}}>
                 {/*<FirstStep onSave = {this.handleOnSave}/>*/}
-                <SecondStep onSave = {this.handleOnSave}/>
+                {/*<SecondStep onSave = {this.handleOnSave}/>*/}
+                <ThirdStep onSave = {this.handleOnSave}/>
             </section>
         )
     }
