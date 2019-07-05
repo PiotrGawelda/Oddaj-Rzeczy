@@ -30,7 +30,7 @@ class SecondStep extends Component {
                 <form className="steps-form" onSubmit={this.handleOnSubmit}>
                     <label>
                         Liczba 60 l worków
-                        <select onChange={this.handleOnChange("worki")}>
+                        <select onChange={this.handleOnChange("worki")} className="second-select">
                               <option>
                                   - wybierz -
                               </option>
@@ -46,8 +46,8 @@ class SecondStep extends Component {
                           </select>
                     </label>
                     <label>
-                        <input type="submit" value="Wstecz" className="btn-position steps-btn"/>
-                        <input type="submit" value="Dalej" className="btn-position steps-btn"/>
+                        <input type="submit" value="Wstecz" className="steps-btn sec-btn"/>
+                        <input type="submit" value="Dalej" className="steps-btn sec-btn"/>
                     </label>
                 </form>
             </div>
