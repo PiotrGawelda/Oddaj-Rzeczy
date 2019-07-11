@@ -74,6 +74,17 @@
     input{
       margin-bottom: 20px;
     }
+    .third-step-sec{
+      width: 650px;
+      display: flex;
+      .help-position{
+        text-align:left;
+        padding-left: 40px;
+        p{
+          font-size: .7em;
+        }
+      }
+    }
   }
 
 }
