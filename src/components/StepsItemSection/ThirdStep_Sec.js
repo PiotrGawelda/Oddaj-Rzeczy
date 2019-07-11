@@ -1,6 +1,12 @@
 import React, {Component} from "react";
 
+
 class ThirdStep_Sec extends Component{
+
+    div_brd = {
+        borderTop: "1px solid black"
+    };
+
     render() {
         return(
             <div className="steps-item-block">
@@ -9,8 +15,13 @@ class ThirdStep_Sec extends Component{
                 <form className="steps-form">
                     <div className="third-step-sec">
                         <input type="checkbox" name="fundation-check"/>
-                        <h5>Fundacja "Dbam o Zdrowie"</h5>
-                        <p>Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania</p>
+                        <div className="help-position">
+                            <h3>Fundacja "Dbam o Zdrowie"</h3>
+                            <p>Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji zyciowej.</p>
+                        </div>
+                        <div className="help">
+                            {/*<p>Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania</p>*/}
+                        </div>
                     </div>
                     <div className="btn-optional">
                         <input type="submit" value="Wstecz" className="btn-position steps-btn" />
