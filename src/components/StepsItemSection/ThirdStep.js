@@ -47,7 +47,7 @@ class ThirdStep extends Component{
                         <input type="text" name="text-organisation"/>
                     </div>
                     <input type="submit" value="Wstecz" className="btn-position steps-btn" />
-                    <input type="submit" value="Dalej"  className="btn-position steps-btn"  />
+                    <input type="submit" value="Szukaj"  className="btn-position steps-btn"  />
                 </div>
                 </form>
             </div>
