@@ -3,10 +3,6 @@ import React, {Component} from "react";
 
 class ThirdStep_Sec extends Component{
 
-    div_brd = {
-        borderTop: "1px solid black"
-    };
-
     render() {
         return(
             <div className="steps-item-block">
